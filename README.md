@@ -32,8 +32,8 @@ Este sistema simula, de forma fiel, as principais operações de uma folha de pa
 
 ## ✨ Funcionalidades (em desenvolvimento)
 
-- [x] Cadastro de funcionários
-- [x] Cálculo de holerite com INSS e IRRF reais
+- [ ] Cadastro de funcionários
+- [ ] Cálculo de holerite com INSS e IRRF reais
 - [ ] Geração visual do demonstrativo
 - [ ] Persistência de dados em SQLite
 - [ ] Exportação do demonstrativo (CSV, PDF)
