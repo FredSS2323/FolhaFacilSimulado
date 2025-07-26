@@ -1,25 +1,51 @@
 # 🧾 Folha Fácil Simulado
 
-Projeto em C# utilizando Avalonia UI que simula uma folha de pagamento com regras reais de INSS e IRRF. Criado com foco em demonstrar domínio técnico em sistemas de RH, folha e contabilidade.
+Simulador de folha de pagamento desenvolvido em **C# com Avalonia UI**, focado em regras reais de **INSS, IRRF e estrutura de holerite**.
 
-## ✅ Tecnologias
+O projeto foi criado com o objetivo de demonstrar **domínio técnico em sistemas de folha, contabilidade e RH**, simulando o funcionamento de softwares utilizados por empresas e escritórios contábeis.
 
-- .NET 8
-- Avalonia UI
-- C# 12
-- MVVM
-- SQLite (em breve)
+---
 
-## 🚀 Funcionalidades previstas
+## 💡 Visão Geral
 
-- Cadastro de funcionários
-- Cálculo de holerite
-- INSS e IRRF com base em regras reais
-- Geração de demonstrativo
-- Persistência de dados
-- Exportação futura (CSV, PDF)
+Este sistema simula, de forma fiel, as principais operações de uma folha de pagamento:
 
-## 🔧 Como rodar
+- Cadastro de colaboradores
+- Cálculo automático de INSS e IRRF com base nas tabelas oficiais
+- Geração de holerite com detalhamento de descontos e base de cálculo
+- Estrutura escalável para futura adição de benefícios, eventos e encargos
+- Interface cross-platform com Avalonia UI
+- Planejado para evoluir com **persistência via SQLite** e **exportação em PDF/CSV**
+
+---
+
+## ✅ Tecnologias utilizadas
+
+| Camada         | Tecnologias                            |
+|----------------|-----------------------------------------|
+| UI             | Avalonia UI (.NET cross-platform)       |
+| Lógica         | C# 12, .NET 8, MVVM                     |
+| Banco (em breve) | SQLite                                |
+| Outros         | Git, GitHub, .NET CLI                   |
+
+---
+
+## ✨ Funcionalidades (em desenvolvimento)
+
+- [x] Cadastro de funcionários
+- [x] Cálculo de holerite com INSS e IRRF reais
+- [ ] Geração visual do demonstrativo
+- [ ] Persistência de dados em SQLite
+- [ ] Exportação do demonstrativo (CSV, PDF)
+- [ ] Inclusão de outros eventos e encargos (FGTS, pensão etc.)
+
+---
+
+## 🚀 Como rodar o projeto
+
+> Certifique-se de ter o **.NET 8 SDK** instalado na máquina.
 
 ```bash
+git clone https://github.com/FredSS2323/FolhaFacilSimulado.git
+cd FolhaFacilSimulado
 dotnet run
